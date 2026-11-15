@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "classes": [
+    "pedestrian",
+    "people",
+    "bicycle",
+    "car",
+    "van",
+    "truck",
+    "tricycle",
+    "awning-tricycle",
+    "bus",
+    "motor"
+  ],
+  "splits": {
+    "train": {
+      "images": 6471,
+      "objects": 343204
+    },
+    "val": {
+      "images": 548,
+      "objects": 38759
+    },
+    "test": {
+      "images": 1610,
+      "objects": 75102
+    }
+  },
+  "source": "C:\\Users\\krgle\\Downloads\\visdrone_project_starter\\visdrone_project\\data\\visdrone",
+  "ignored_regions_policy": "exclude_from_targets; retain_original_annotations",
+  "hash_algorithm": "sha256",
+  "config_sha256": "988db692a4aaee07ef3d9344e8f9a9022a30c11e3990e82447301b77271d020c"
+}

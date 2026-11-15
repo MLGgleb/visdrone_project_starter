@@ -1,0 +1,14 @@
+epochs: 50
+batch: 2
+short_side: 640
+max_size: 1024
+optimizer: SGD
+lr: 0.0025
+momentum: 0.9
+weight_decay: 0.0001
+step_size: 15
+gamma: 0.1
+workers: 2
+amp: true
+seed: 42
+horizontal_flip_probability: 0.5

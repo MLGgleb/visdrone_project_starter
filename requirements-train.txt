@@ -1,0 +1,4 @@
+-r requirements.txt
+# Install CUDA PyTorch separately following the README.
+ultralytics>=8.3,<9
+torchvision>=0.20,<1

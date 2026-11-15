@@ -1,0 +1,19 @@
+dataset_root: data/visdrone
+expected_images:
+  train: 6471
+  val: 548
+  test: 1610
+classes:
+  - pedestrian
+  - people
+  - bicycle
+  - car
+  - van
+  - truck
+  - tricycle
+  - awning-tricycle
+  - bus
+  - motor
+# COCO-style thresholds based on ORIGINAL image pixel area; not COCO evaluation mAP.
+small_area: 1024
+medium_area: 9216

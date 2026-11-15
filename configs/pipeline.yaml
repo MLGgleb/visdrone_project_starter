@@ -1,0 +1,18 @@
+seed: 42
+input_size: 640
+splits:
+  train: VisDrone2019-DET-train
+  val: VisDrone2019-DET-val
+  test: VisDrone2019-DET-test-dev
+transforms:
+  train:
+    horizontal_flip_probability: 0.5
+    brightness_contrast_probability: 0.3
+    blur_probability: 0.1
+  val:
+    random_augmentations: false
+  test:
+    random_augmentations: false
+normalization:
+  policy: model_specific
+  note: Do not apply ImageNet or 0-1 normalization twice

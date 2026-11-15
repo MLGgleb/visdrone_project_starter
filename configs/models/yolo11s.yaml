@@ -1,0 +1,17 @@
+model: yolo11s.pt
+epochs: 50
+imgsz: 640
+batch: 8
+optimizer: AdamW
+lr0: 0.001
+cos_lr: true
+patience: 15
+workers: 2
+amp: true
+seed: 42
+hsv_h: 0.015
+hsv_s: 0.7
+hsv_v: 0.4
+fliplr: 0.5
+mosaic: 1.0
+close_mosaic: 10
